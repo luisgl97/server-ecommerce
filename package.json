@@ -1,0 +1,40 @@
+{
+  "name": "ecommerce",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "fs-extra": "^9.0.1",
+    "strapi": "3.6.7",
+    "strapi-admin": "3.6.7",
+    "strapi-connector-mongoose": "3.6.7",
+    "strapi-plugin-content-manager": "3.6.7",
+    "strapi-plugin-content-type-builder": "3.6.7",
+    "strapi-plugin-email": "3.6.7",
+    "strapi-plugin-graphql": "3.6.7",
+    "strapi-plugin-i18n": "3.6.7",
+    "strapi-plugin-upload": "3.6.7",
+    "strapi-plugin-users-permissions": "3.6.7",
+    "strapi-provider-upload-aws-s3": "^3.6.7",
+    "strapi-utils": "3.6.7"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "367e8c61-5b78-4ca0-9b4b-398fb31b196d",
+    "template": "https://github.com/strapi/strapi-template-portfolio"
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": "^6.0.0"
+  },
+  "license": "MIT"
+}
