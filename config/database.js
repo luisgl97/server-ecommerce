@@ -1,3 +1,5 @@
+//Configuracion de MongoDB con Strapi
+
 module.exports = ({ env }) => ({
   defaultConnection: 'default',
   connections: {

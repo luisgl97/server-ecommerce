@@ -1,3 +1,5 @@
+//Configuraciond de Strapi con AWS (SErvicio S3)
+
 module.exports = ({ env }) => ({
     upload: {
       provider: 'aws-s3',
