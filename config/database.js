@@ -1,6 +1,7 @@
-//Configuracion de MongoDB con Strapi
+//Configuración de MongoDB con Strapi
 
-module.exports = ({ env }) => ({
+//Patrón Singleton
+const Singleton = ({ env }) => ({
   defaultConnection: 'default',
   connections: {
     default: {
@@ -20,3 +21,5 @@ module.exports = ({ env }) => ({
     },
   },
 });
+
+module.exports = Singleton;
