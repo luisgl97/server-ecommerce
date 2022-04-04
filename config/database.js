@@ -1,4 +1,4 @@
-//Configuracion de MongoDB con Strapi
+//Configuración de MongoDB con Strapi
 
 //Patrón Singleton
 const Singleton = ({ env }) => ({
